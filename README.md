@@ -139,8 +139,8 @@ Example command:
 
 Clone this repository to your desired folder:
 ```
-$ git clone https://github.com/SimonGideon/math-magicians-.git
-cd math-magicians-
+$ git clone https://github.com/SimonGideon/React-todo-list.git
+cd React-todo-list
 ```
 
 <!--
