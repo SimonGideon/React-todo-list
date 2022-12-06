@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React from "react";
 class InputTodo extends React.Component {
   state = {
