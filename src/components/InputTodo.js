@@ -16,7 +16,6 @@ class InputTodo extends React.Component {
         title: "",
       });
     } else {
-        alert("Please write item")
     }
   };
   render() {

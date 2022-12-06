@@ -51,5 +51,18 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "description": "<a name=\"readme-top\"></a>",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonGideon/React-todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonGideon/React-todo-list/issues"
+  },
+  "homepage": "https://github.com/SimonGideon/React-todo-list#readme"
 }
