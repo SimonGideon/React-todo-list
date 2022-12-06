@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React from "react";
 class InputTodo extends React.Component {
   state = {
@@ -16,7 +17,6 @@ class InputTodo extends React.Component {
         title: "",
       });
     } else {
-        alert("Please write item")
     }
   };
   render() {

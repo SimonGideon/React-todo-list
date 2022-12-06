@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React from "react";
 import TodosList from "./TodosList";
 import Header from "./Header";
@@ -58,16 +59,16 @@ class TodoContainer extends React.Component {
       todos: [...this.state.todos, newTodo],
     });
   };
-  setUpdate = (updatedTitle, id)=>{
+  setUpdate = (updatedTitle, id) => {
     this.setState({
-        todos: this.state.todos.map(todo => {
-            if(todo.id === id){
-                todo.tittle = updatedTitle
-            }
-            return todo
-        }),
-    })
-  }
+      todos: this.state.todos.map((todo) => {
+        if (todo.id === id) {
+          todo.tittle = updatedTitle;
+        }
+        return todo;
+      }),
+    });
+  };
 
   render() {
     return (
